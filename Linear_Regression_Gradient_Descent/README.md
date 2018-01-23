@@ -1,6 +1,6 @@
 # Gradient Descent Example for Linear Regression
 
-This example project demonstrates how the gradient descent algorithm may be used to solve a linear regression problem. A more detailed description of this example can be found here.
+This example project demonstrates how the gradient descent algorithm may be used to solve a linear regression problem. A more detailed description of this example can be found <a href="https://spin.atomicobject.com/2014/06/24/gradient-descent-linear-regression/">here </a>.
 
 ## Code Requirements
 
@@ -12,23 +12,18 @@ This code demonstrates how a gradient descent search may be used to solve the li
 
 The code contains a main function called run. This function defines a set of parameters used in the gradient descent algorithm including an initial guess of the line slope and y-intercept, the learning rate to use, and the number of iterations to run gradient descent for.
 
-## Overview
-
-Here are some helpful links:
 
 #### Gradient descent visualization
-https://raw.githubusercontent.com/mattnedrich/GradientDescentExample/master/gradient_descent_example.gif
+<img src="https://raw.githubusercontent.com/mattnedrich/GradientDescentExample/master/gradient_descent_example.gif" width="fit" height="fit" />
 
 #### Sum of squared distances formula (to calculate our error)
-https://spin.atomicobject.com/wp-content/uploads/linear_regression_error1.png
+<img src = "https://spin.atomicobject.com/wp-content/uploads/linear_regression_error1.png"/>
 
 #### Partial derivative with respect to b and m (to perform gradient descent)
-https://spin.atomicobject.com/wp-content/uploads/linear_regression_gradient1.png
+<img src = "https://spin.atomicobject.com/wp-content/uploads/linear_regression_gradient1.png" />
 
 ## Dependencies
-
 * numpy
-
 Python 2 and 3 both work for this. Use [pip](https://pip.pypa.io/en/stable/) to install any dependencies.
 
 ## Execution
@@ -43,5 +38,7 @@ After 1000 iterations b = 0.08893651993741346, m = 1.4777440851894448, error = 1
 
 ## Credits
 
-Credits for this code go to [mattnedrich](https://github.com/mattnedrich). I've merely created a wrapper to get people started. 
+1. Credits for this code go to [mattnedrich](https://github.com/mattnedrich).
+2. Siraj Raval Click <a href="https://www.youtube.com/watch?v=XdM6ER7zTLk">Youtube Channel
+</a>
 

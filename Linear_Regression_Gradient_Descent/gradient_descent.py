@@ -1,5 +1,4 @@
 #Gradient descent algorithm for linear regression
-
 from numpy import *
 
 # minimize the "sum of squared errors". This is how we calculate and correct our error
@@ -10,8 +9,6 @@ def compute_error_for_line_given_points(b,m,points):
 		y = points[i, 1]
 		totalError += (y-(m*x + b)) ** 2
 	return totalError/ float(len(points))
-
-
 
 def step_gradient(b_current, m_current, points, learning_rate):
 	#gradient descent
@@ -27,16 +24,12 @@ def step_gradient(b_current, m_current, points, learning_rate):
 	new_m = m_current - (learning_rate * m_gradient) 
 	return [new_b,new_m]
 
-
-
-
 def gradient_descent_runner(points, starting_b, starting_m, learning_rate, num_iteartions):
 	b = starting_b
 	m = starting_m
 	for i in range(num_iteartions):
 		b,m = step_gradient(b, m, array(points), learning_rate)
 	return [b,m]
-
 
 def run():
 	#Step 1: Collect the data
